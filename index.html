@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./kata.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <label for="buscar"></label>
+      <input class="btn" type="text" name="buscar" id="buscar" placeholder="buscar">
+      <ul class="horizontal">
+        <li>Menu
+          <ul class="vertical">
+            <li>Dar de alta</li>
+            <li>Notas</li>
+            <li>Inscribir a clase</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+     <form class="form-registro"  id="form">
+    <div>
+      <label class="lab">
+        <em>Nombre</em>
+      <input
+        class="cont"
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Ingrese nombre"
+      </label>
+    </div>
+    <div>
+      <label class="lab">
+        <em>Apellido</em>
+      <input
+        class="cont"
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Ingrese apellido"
+      </label>
+    </div>
+    <div>
+      <label class="lab">
+        <em>Edad</em>
+      <input
+        class="cont"
+        type="number"
+        id="edad"
+        name="edad"
+        placeholder="Ingrese edad"
+      </label>
+    </div>
+    <button class="btn"  type="submit" id="btn">Guardar</button>
+  </form>
+
+
+  <div id="students-table"></div>
+</main>
+<footer>
+
+</footer> 
+</body>
+</html>
